@@ -1,1 +1,3 @@
-Java,HTML,CSS,C#
+**React Javascript** - Batch Juli 2020
+
+Oleh : Muhammad Amin Riqky
