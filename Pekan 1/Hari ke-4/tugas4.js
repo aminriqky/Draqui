@@ -49,4 +49,5 @@ console.log(kalimat);
 //Soal 5
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 var daftarBuah= daftarBuah.sort();
-console.log(daftarBuah);
+var bre=daftarBuah.join("\n");
+console.log(bre);
