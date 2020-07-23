@@ -27,19 +27,8 @@ for (var angka = 1; angka <= 20; angka++) {
 }
 
 //Soal 3
-var y = 8;
-var x = 8;
-var string = "";
-
-for(var segi = 1; segi < y; segi++ ){
-  for(var tiga = 1; tiga < x; tiga++){
-    if(segi >= tiga ){
-      string = string.concat("#");
-    }
-  }
-  string = string.concat("\n");
-}
-console.log(string);
+for (var segitiga="#";segitiga.length<=7;segitiga=segitiga+"#")
+console.log(segitiga);
 
 //Soal 4
 var kalimat="saya sangat senang belajar javascript"
@@ -48,6 +37,8 @@ console.log(kalimat);
 
 //Soal 5
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
-var daftarBuah= daftarBuah.sort();
-var bre=daftarBuah.join("\n");
-console.log(bre);
+var daftarBuah = daftarBuah.sort();
+var buah = daftarBuah.length;
+for (var i = 0; i < buah; i++) {
+  console.log(daftarBuah[i]);
+}
